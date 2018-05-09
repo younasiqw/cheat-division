@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\src\core\types.h" />
+    <ClInclude Include="..\..\src\core\time.h" />
+    <ClInclude Include="..\..\src\core\matrix.h" />
+    <ClInclude Include="..\..\src\core\string.h" />
+    <ClInclude Include="..\..\src\core\vector.h" />
+    <ClInclude Include="..\..\src\core\utility.h" />
+    <ClInclude Include="..\..\src\core\renderer_shader_ps.h" />
+    <ClInclude Include="..\..\src\core\renderer_shader_vs.h" />
+    <ClInclude Include="..\..\src\core\renderer_texture.h" />
+    <ClInclude Include="..\..\src\core\renderer.h" />
+    <ClInclude Include="..\..\src\core\bind.h" />
+    <ClInclude Include="..\..\src\core\config.h" />
+    <ClInclude Include="..\..\src\core\process.h" />
+    <ClInclude Include="..\..\src\core\core.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\core\time.c" />
+    <ClCompile Include="..\..\src\core\matrix.c" />
+    <ClCompile Include="..\..\src\core\string.c" />
+    <ClCompile Include="..\..\src\core\vector.c" />
+    <ClCompile Include="..\..\src\core\renderer.c" />
+    <ClCompile Include="..\..\src\core\config.c" />
+    <ClCompile Include="..\..\src\core\bind.c" />
+    <ClCompile Include="..\..\src\core\process.c" />
+  </ItemGroup>
+</Project>

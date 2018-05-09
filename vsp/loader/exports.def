@@ -1,0 +1,4 @@
+LIBRARY d3d11.dll
+EXPORTS
+	D3D11CreateDevice=create_device_hook @18
+	D3D11CreateDeviceAndSwapChain=create_device_and_swap_hook @19
